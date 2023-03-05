@@ -19,7 +19,12 @@ public class Main {
 	
 	public static void doPokemonStuff(Pokemon pokemon , String speed) {
 
-			System.out.println("soy el conflicto desde ramapikachustring");
+
+		System.out.println("soy el conflicto desde ramapikachustring");
+
+
+		System.out.println("soy el conflicto desde master");
+		
 
 		
 	}
