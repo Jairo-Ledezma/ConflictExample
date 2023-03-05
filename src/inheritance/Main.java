@@ -13,6 +13,8 @@ public class Main {
 		Magikarp magikarp = new Magikarp("magikarp" , 3.00 , 2 ,2);
 		doPokemonStuff(magikarp , "fast");
 		
+		
+		
 	}
 	
 	public static void doPokemonStuff(Pokemon pokemon , String speed) {
@@ -20,6 +22,19 @@ public class Main {
 		pokemon.move(speed);
 		System.out.println(pokemon);
 		System.out.println("__________");
+		pokemon.MakeNoise();
+		pokemon.move(speed);
+		System.out.println(pokemon);
+		System.out.println("__________");
+		pokemon.MakeNoise();
+		pokemon.move(speed);
+		System.out.println(pokemon);
+		System.out.println("__________");
+		pokemon.MakeNoise();
+		pokemon.move(speed);
+		System.out.println(pokemon);
+		System.out.println("__________");
+		
 		
 	}
 
